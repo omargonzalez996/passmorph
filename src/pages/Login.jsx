@@ -18,8 +18,10 @@ export default function Login({ onLogin }) {
   return (
     <div className="flex items-center justify-center min-h-screen bg-slate-200 p-4">
       <div className="w-full max-w-md bg-slate-100 rounded-2xl shadow-lg p-6 text-slate-950">
-        <h2 className="text-2xl font-bold text-center mb-6">Iniciar Sesión</h2>
-
+        <h2 className="text-2xl font-bold text-center mb-6">IDENTIFICATE</h2>
+        <div className="flex justify-center items-center w-full py-5">
+          <img src="/logo_m.png" alt="logo" />
+        </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Usuario</label>
